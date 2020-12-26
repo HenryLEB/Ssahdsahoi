@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameInfoActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/push_box_game"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="      推箱子游戏的目标就是把所有的箱子推到指定的目标位置上，游戏就完成了。玩家应该使用尽量少的步数完成一关游戏"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="20sp"
+        android:padding="20dp"/>
+
+</LinearLayout>
